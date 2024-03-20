@@ -75,6 +75,7 @@ function App() {
       }}
     >
       <div style={{ fontSize: "2rem", textAlign: "center" }}>
+        <p>Test</p>
         {isWinner && "Winner! You can try again..."}
         {isLoser && "Nice try - You can try again..."}
       </div>
