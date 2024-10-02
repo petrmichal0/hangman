@@ -1,30 +1,127 @@
-# React + TypeScript + Vite
+# Hangman
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Title and Description
+Hangman is a classic word-guessing game implemented in React and TypeScript. The user tries to guess a randomly selected word, one letter at a time, within a limited number of incorrect guesses. 
 
-Currently, two official plugins are available:
+## Badges
+![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Quick Look
+<img src="https://github.com/user-attachments/assets/V5ADweD6yuG82ImfuFlNvOCA" width="700" alt="Hangman App Demo">
 
-## Expanding the ESLint configuration
+## Table of Content
+- [Project Title and Description](#project-title-and-description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Demo (link)](#demo-link)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Third-Party Libraries](#third-party-libraries)
+- [License](#license)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
+- Play a classic Hangman game
+- Random word selection from a predefined word list
+- Keyboard input for guessing letters
+- Display of incorrect guesses
+- Victory or defeat message displayed based on game outcome
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Prerequisites
+- Node.js (v12 or higher)
+- npm (v6 or higher)
+
+### Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/petrmichal0/hangman.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd hangman
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+## Usage
+To start the application, run the following command:
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+After starting, go to [http://localhost:3000](http://localhost:3000) in your web browser.
+
+## Screenshots
+
+<table>
+  <tr>
+    <th>Homepage</th>
+    <th>Game Interface</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/37080a48-02ca-44b5-a3fa-9fc61e86d386" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.com/user-attachments/assets/37080a48-02ca-44b5-a3fa-9fc61e86d386" width="300" height="300" alt="Homepage">
+      </a>
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/be7de6eb-b3e8-4d31-a328-d9329ca807c8" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.com/user-attachments/assets/be7de6eb-b3e8-4d31-a328-d9329ca807c8" width="300" height="300" alt="Game Interface">
+      </a>
+    </td>
+  </tr>
+</table>
+
+## Demo (link)
+
+Check out the live demo of the application [here](https://hangman-2024.netlify.app/).
+
+## Project Structure
+
+```css
+Hangman/
+├── public/
+│   ├── vite.svg
+├── src/
+│   ├── App.tsx
+│   ├── HangmanDrawing.tsx
+│   ├── HangmanWord.tsx
+│   ├── Keyboard.tsx
+│   ├── Keyboard.module.css
+│   ├── main.tsx
+│   ├── wordList.json
+├── .eslintrc.cjs
+├── .gitignore
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+```
+
+## Technologies Used
+
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)
+[![TypeScript Badge](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007ACC)](#)
+[![Vite Badge](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&labelColor=black&logo=vite&logoColor=646CFF)](#)
+[![ESLint Badge](https://img.shields.io/badge/-ESLint-4B32C3?style=for-the-badge&labelColor=black&logo=eslint&logoColor=4B32C3)](#)
+[![Prettier Badge](https://img.shields.io/badge/-Prettier-F7B93E?style=for-the-badge&labelColor=black&logo=prettier&logoColor=F7B93E)](#)
+
+## Third-Party Libraries
+
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A strongly typed programming language that builds on JavaScript.
+- **Vite**: A fast development build tool and server.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
