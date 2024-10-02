@@ -113,14 +113,14 @@ Hangman/
 [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)
 [![TypeScript Badge](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007ACC)](#)
 [![Vite Badge](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&labelColor=black&logo=vite&logoColor=646CFF)](#)
-[![ESLint Badge](https://img.shields.io/badge/-ESLint-4B32C3?style=for-the-badge&labelColor=black&logo=eslint&logoColor=4B32C3)](#)
-[![Prettier Badge](https://img.shields.io/badge/-Prettier-F7B93E?style=for-the-badge&labelColor=black&logo=prettier&logoColor=F7B93E)](#)
 
 ## Third-Party Libraries
 
 - **React**: A JavaScript library for building user interfaces.
 - **TypeScript**: A strongly typed programming language that builds on JavaScript.
 - **Vite**: A fast development build tool and server.
+- **ESLint**: A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript and TypeScript.
+- **Prettier**: A code formatter to ensure consistent coding style.
 
 ## License
 
