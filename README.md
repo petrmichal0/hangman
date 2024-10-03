@@ -7,7 +7,7 @@ Hangman is a classic word-guessing game implemented in React and TypeScript. The
 ![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
 ## Quick Look
-<img src="https://github.com/user-attachments/assets/314aa6ee-5552-461a-91ad-959f2b7a00e5" width="700" alt="Hangman App Demo">
+<img src="https://github.com/user-attachments/assets/2a2a185e-61a1-43d4-914c-ac32ee6d1795" width="700" alt="Hangman App Demo">
 
 ## Table of Content
 - [Project Title and Description](#project-title-and-description)
