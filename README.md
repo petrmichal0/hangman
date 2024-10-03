@@ -7,7 +7,7 @@ Hangman is a classic word-guessing game implemented in React and TypeScript. The
 ![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
 ## Quick Look
-<img src="https://github.com/user-attachments/assets/V5ADweD6yuG82ImfuFlNvOCA" width="700" alt="Hangman App Demo">
+<img src="https://github.com/user-attachments/assets/314aa6ee-5552-461a-91ad-959f2b7a00e5" width="700" alt="Hangman App Demo">
 
 ## Table of Content
 - [Project Title and Description](#project-title-and-description)
@@ -64,17 +64,23 @@ After starting, go to [http://localhost:3000](http://localhost:3000) in your web
 <table>
   <tr>
     <th>Homepage</th>
-    <th>Game Interface</th>
+    <th>Looser</th>
+    <th>Winner</th>
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <a href="https://github.com/user-attachments/assets/37080a48-02ca-44b5-a3fa-9fc61e86d386" target="_blank" rel="noopener noreferrer">
-        <img src="https://github.com/user-attachments/assets/37080a48-02ca-44b5-a3fa-9fc61e86d386" width="300" height="300" alt="Homepage">
+      <a href="https://github.com/user-attachments/assets/ee54384b-89e1-4e79-88af-667018a8f87c" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.com/user-attachments/assets/ee54384b-89e1-4e79-88af-667018a8f87c" width="300" height="300" alt="Homepage">
       </a>
     </td>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <a href="https://github.com/user-attachments/assets/be7de6eb-b3e8-4d31-a328-d9329ca807c8" target="_blank" rel="noopener noreferrer">
-        <img src="https://github.com/user-attachments/assets/be7de6eb-b3e8-4d31-a328-d9329ca807c8" width="300" height="300" alt="Game Interface">
+      <a href="https://github.com/user-attachments/assets/cb4d08a5-8378-4da5-80ae-7f36d77775ab" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.com/user-attachments/assets/cb4d08a5-8378-4da5-80ae-7f36d77775ab" width="300" height="300" alt="Game Interface">
+      </a>
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/f7b3463f-95c7-4643-94f1-97f234fdebb1" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.com/user-attachments/assets/f7b3463f-95c7-4643-94f1-97f234fdebb1" width="300" height="300" alt="Game Interface">
       </a>
     </td>
   </tr>
