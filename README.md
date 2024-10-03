@@ -82,7 +82,7 @@ After starting, go to [http://localhost:3000](http://localhost:3000) in your web
 
 ## Demo (link)
 
-Check out the live demo of the application [here](https://hangman-2024.netlify.app/).
+Check out the live demo of the application [here](https://hangman2024.netlify.app).
 
 ## Project Structure
 
