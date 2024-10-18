@@ -122,12 +122,8 @@ Hangman/
 
 ## Third-Party Libraries
 
-- **React**: A JavaScript library for building user interfaces.
-- **TypeScript**: A strongly typed programming language that builds on JavaScript.
-- **Vite**: A fast development build tool and server.
-- **ESLint**: A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript and TypeScript.
-- **Prettier**: A code formatter to ensure consistent coding style.
+* None
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the LICENSE file for details.
