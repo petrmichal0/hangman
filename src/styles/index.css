@@ -1,7 +1,13 @@
+.keyboard-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+  gap: 0.5rem;
+}
+
 .btn {
   width: 100%;
   border: 3px solid black;
-  background: none;
+  background: white;
   aspect-ratio: 1/1;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -23,4 +29,8 @@
 .btn:hover:not(:disabled),
 .btn:focus:not(:disabled) {
   background-color: chartreuse;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
 }

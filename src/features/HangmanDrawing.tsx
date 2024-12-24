@@ -1,5 +1,6 @@
 const HEAD = (
   <div
+    data-testid="body-part"
     style={{
       width: "50px",
       height: "50px",
@@ -14,6 +15,7 @@ const HEAD = (
 
 const BODY = (
   <div
+    data-testid="body-part"
     style={{
       width: "10px",
       height: "100px",
@@ -27,6 +29,7 @@ const BODY = (
 
 const RIGHT_ARM = (
   <div
+    data-testid="body-part"
     style={{
       width: "100px",
       height: "10px",
@@ -42,6 +45,7 @@ const RIGHT_ARM = (
 
 const LEFT_ARM = (
   <div
+    data-testid="body-part"
     style={{
       width: "100px",
       height: "10px",
@@ -57,6 +61,7 @@ const LEFT_ARM = (
 
 const RIGHT_LEG = (
   <div
+    data-testid="body-part"
     style={{
       width: "100px",
       height: "10px",
@@ -72,6 +77,7 @@ const RIGHT_LEG = (
 
 const LEFT_LEG = (
   <div
+    data-testid="body-part"
     style={{
       width: "100px",
       height: "10px",
@@ -99,6 +105,7 @@ export default function HangmanDrawing({
       {BODY_PARTS.slice(0, numberOfGuesses)}
 
       <div
+        data-testid="static-part"
         style={{
           height: "50px",
           width: "10px",
@@ -109,6 +116,7 @@ export default function HangmanDrawing({
         }}
       />
       <div
+        data-testid="static-part"
         style={{
           height: "10px",
           width: "200px",
@@ -117,6 +125,7 @@ export default function HangmanDrawing({
         }}
       />
       <div
+        data-testid="static-part"
         style={{
           height: "400px",
           width: "10px",
@@ -124,7 +133,10 @@ export default function HangmanDrawing({
           marginLeft: "120px",
         }}
       />
-      <div style={{ height: "10px", width: "250px", background: "black" }} />
+      <div
+        data-testid="static-part"
+        style={{ height: "10px", width: "250px", background: "black" }}
+      />
     </div>
   );
 }
