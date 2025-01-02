@@ -102,7 +102,9 @@ export default function HangmanDrawing({
 }: HangmanDrawingProps) {
   return (
     <div style={{ position: "relative" }}>
-      {BODY_PARTS.slice(0, numberOfGuesses)}
+      {BODY_PARTS.slice(0, numberOfGuesses).map((part, index) => (
+        <div key={index}>{part}</div>
+      ))}
 
       <div
         data-testid="static-part"

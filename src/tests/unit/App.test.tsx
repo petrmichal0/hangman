@@ -2,6 +2,8 @@ import { render, screen } from "@testing-library/react";
 import user from "@testing-library/user-event";
 import App from "../../App";
 
+jest.mock("../../data/wordList.json", () => ["mockedword"]);
+
 describe("App Component", () => {
   test("renders the initial layout correctly", () => {
     render(<App />);
@@ -16,16 +18,17 @@ describe("App Component", () => {
 
   test("adds guessed letters on keypress", async () => {
     render(<App />);
-    const randomLetter = "a";
+    const randomLetter = "m";
 
     await user.keyboard(randomLetter);
 
-    expect(screen.getByText(randomLetter)).toBeInTheDocument();
+    const elements = screen.getAllByText(randomLetter);
+    expect(elements).toHaveLength(2);
   });
 
-  test.only("resets the game on Enter keypress", async () => {
+  test("resets the game on Enter keypress", async () => {
     render(<App />);
-    const randomLetter = "a";
+    const randomLetter = "m";
 
     await user.keyboard(randomLetter);
 
@@ -38,9 +41,9 @@ describe("App Component", () => {
     expect(guessedLetter).not.toBeInTheDocument();
   });
 
-  test("does not allow guessing the same letter twice", async () => {
+  test.only("does not allow guessing the same letter twice", async () => {
     render(<App />);
-    const randomLetter = "a";
+    const randomLetter = "m";
 
     // Stisknutí stejného písmena dvakrát
     await user.keyboard(randomLetter);

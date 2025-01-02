@@ -11,7 +11,8 @@
     "test:unit": "jest --testPathPattern=tests/unit --verbose",
     "test:integration": "jest --testPathPattern=tests/integration --verbose",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "test:app": "jest src/tests/unit/App.test.tsx --verbose"
   },
   "dependencies": {
     "framer-motion": "^11.11.11",
